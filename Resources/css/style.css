@@ -14,8 +14,9 @@ header {
   background-position: center;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
-head-bar {
+#head-bar {
   background-color: cadetblue;
   width: 960px;
   height: 3.4rem;
@@ -38,4 +39,12 @@ nav {
 }
 nav p {
   padding: 1rem;
+}
+h1 {
+  background-color: white;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
 }
