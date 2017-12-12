@@ -13,7 +13,6 @@ header {
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 #head-bar {
@@ -42,9 +41,14 @@ nav p {
 }
 h1 {
   background-color: white;
+  height: 4.2rem;
+  width: 27.5rem;
   margin-top: 10rem;
   padding: 1.5rem 5rem;
   font-weight: bold;
   font-size: 2rem;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
