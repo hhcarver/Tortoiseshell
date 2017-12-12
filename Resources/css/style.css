@@ -1,0 +1,36 @@
+html {
+  font-size: 18px;
+}
+body {
+  font-family: Helvetica;
+}
+
+/*HEADER*/
+header {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+head-bar {
+  background-color: cadetblue;
+  width: 960px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+#name {
+  display: flex;
+  align-items: center;
+}
+#white-logo {
+  padding-left: 2rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+nav {
+  margin-right: 1rem;
+  display: flex;
+}
+nav p {
+  padding: 1rem;
+}
