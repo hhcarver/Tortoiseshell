@@ -1,5 +1,6 @@
 html {
   font-size: 18px;
+  line-height: 1.4px;
 }
 body {
   font-family: Helvetica;
@@ -49,6 +50,7 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   color: black;
+  line-height: 1.2px;
   position: absolute;
   right: -2rem;
   display: flex;
@@ -94,4 +96,31 @@ h1 {
 }
 #ruler {
   margin-right: 6rem;
+}
+
+/*INFO SECTION*/
+#info {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+#info div {
+  width: 35%;
+  display: flex;
+  flex-flow: column wrap;
+}
+h3 {
+  color: white;
+  font-weight: bold;
+  background-color: cadetblue;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  width: 10rem;
+}
+#info div p {
+  margin-top: 1rem;
+}
+#appointments {
+  padding-left: 5%;
 }
