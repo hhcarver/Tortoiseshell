@@ -8,12 +8,17 @@ body {
 /*HEADER*/
 header {
   color: white;
+  background-image: url("../images/glasses-bg.png");
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
 head-bar {
   background-color: cadetblue;
   width: 960px;
+  height: 3.4rem;
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
