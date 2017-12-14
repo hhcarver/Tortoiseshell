@@ -1,9 +1,9 @@
 html {
   font-size: 18px;
-  line-height: 1.4px;
 }
 body {
   font-family: Helvetica;
+  line-height: 1.4;
 }
 
 /*HEADER*/
@@ -50,7 +50,7 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   color: black;
-  line-height: 1.2px;
+  line-height: 1.2;
   position: absolute;
   right: -2rem;
   display: flex;
@@ -76,7 +76,7 @@ h1 {
   width: 5rem;
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 #icons div p {
@@ -101,6 +101,7 @@ h1 {
 /*INFO SECTION*/
 #info {
   margin-top: 3rem;
+  margin-bottom: 5rem;
   display: flex;
   justify-content: center;
 }
@@ -120,7 +121,24 @@ h3 {
 }
 #info div p {
   margin-top: 1rem;
+  padding-right: 5%;
 }
 #appointments {
   padding-left: 5%;
 }
+
+/*COPYRIGHT*/
+footer {
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: azure;
+  display: flex;
+}
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+/*PROGRESS: Need to create copyright line... also fix line spacing,
+and fix spacing between icons and text.*/
