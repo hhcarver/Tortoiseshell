@@ -38,6 +38,9 @@ nav {
   margin-right: 1rem;
   display: flex;
 }
+#backup-nav {
+  display: none;
+}
 nav p {
   padding: 1rem;
 }
@@ -138,8 +141,11 @@ footer img {
   height: 1.5rem;
   margin-right: 1rem;
 }
-
-/*MEDIA QUERIES FOR TABLET*/
+#backup-footer {
+  display: none;
+}
+/*MEDIA QUERIES*/
+/*FOR TABLET*/
 @media only screen and (max-width: 960px) {
   #head-bar {
     width: 100%;
@@ -155,9 +161,85 @@ footer img {
   h1 {
     padding: 0.75rem 4rem;
     font-size: 1.33rem;
-    margin-top: 5rem;
-    margin-right: 2rem;
+    margin-top: 8.4rem;
+    margin-right: 4rem;
   }
-  /*NEED HELP WITH SLOGAN BOX*/
-
+}
+/*FOR PHONE*/
+@media only screen and (max-width: 620px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    display: none;
+  }
+  #backup-nav {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  header {
+    background-position: 20%;
+  }
+  h1 {
+    font-size: 1rem;
+    height: 1rem;
+    width: 100%;
+    margin-top: 17rem;
+    margin-right: 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #icons {
+    height: 100%;
+    width: 100%;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #ruler {
+    margin-top: 1.54rem;
+  }
+  #truck {
+    margin-top: 1.54rem;
+    }
+  #icons div {
+    width: 100%;
+  }
+  #icons div p {
+    font-size: 0.77rem;
+  }
+  #info {
+    flex-direction: column;
+  }
+  #info div{
+    width: 100%;
+  }
+  h3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #appointments {
+    padding-left: 0;
+  }
+  #info div p {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    padding-left: 0.5rem;
+    font-size: 0.77rem;
+  }
+  footer {
+    display: none;
+  }
+  #backup-footer {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+  #backup-footer img {
+    height: 1.5rem;
+  }
 }
